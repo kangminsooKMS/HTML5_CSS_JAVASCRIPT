@@ -15,3 +15,8 @@ html5 class
   - HTML5 미디어 삽입
   - HTML5 wk03_src 업로드
   - HTML5 hm01_rpt 업로드
+- wk04 upload
+  - HTML5 시맨틱 태그로 구조화
+  - HTML5 시맨틱 인라인 태그
+  - HTML5 웹폼 구성
+  - HTML5 wk04_src 업로드
