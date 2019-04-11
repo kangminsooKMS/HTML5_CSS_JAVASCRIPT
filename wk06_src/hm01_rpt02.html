@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!-- 이 부분은 주석문입니다. 웹 브라우저는 주석을 화면에 출력하지 않습니다. -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>절대 배치</title>
+    <style>
+        div {
+            display: inline-block;
+            position: absolute;
+            /* 절대 배치 */
+            border: 30px solid transparent;
+            border-image: url(media/christmas.jpg)60 round;
+            width: 200px;
+            height: 200px;
+        }
+        div>p {
+            display: inline-block;
+            /* div의 자식 p */
+            position: absolute;
+            /* 절대 배치 */
+            height: 20px;
+            width: 15px;
+            background: lightgray;
+        }
+        div>p2 {
+            display: inline-block;
+            /* div의 자식 p */
+            position: absolute;
+            /* 절대 배치 */
+            height: 20px;
+            width: 15px;
+            background: lightblue;
+        }
+        div>p3 {
+            display: inline-block;
+            /* div의 자식 p */
+            position: absolute;
+            /* 절대 배치 */
+            height: 20px;
+            width: 15px;
+            background: lightgreen;
+        }
+        div>p4 {
+            display: inline-block;
+            /* div의 자식 p */
+            position: absolute;
+            /* 절대 배치 */
+            height: 20px;
+            width: 15px;
+            background: red;
+        }
+        div>p5 {
+            display: inline-block;
+            /* div의 자식 p */
+            position: absolute;
+            /* 절대 배치 */
+            height: 20px;
+            width: 15px;
+            background: brown;
+        }
+        #up:hover{
+            position:relative;
+            right:90px;
+            bottom:0px;
+            background: green;
+        }
+        @keyframes textColorAnimation {
+			0% { color : blue; }
+			30% { color : black; font-size: 2em}
+			100% { color : yellow; font-size: medium}
+			}
+			span {
+				animation-name: textColorAnimation;
+				animation-duration: 3s;
+				animation-iteration-count: infinite;
+			}
+        span1 {
+                transition: font-size 5s;
+				
+			}
+			span1:hover {
+				font-size:200%;
+			}
+
+
+    </style>
+</head>
+
+<body>
+    <h3>Merry Christmas!</h3>
+    <hr>
+    <p style="background: lightblue",>Happy Day!!</p>
+    <div>
+        <img src="media/christmastree.png" width="200" height="200" alt="크리스마스 트리">
+        <p style="left:50px; top:200px;background : yellow;height : 20px;
+width : 90px;"><span1>hm01강민수</span1></p>
+        <img src="media/christmas1.jpg"
+             width="60" height="70" alt="Santa">
+            <audio src="media/%EC%BA%90%EB%A1%A4%EC%86%A1.mp3"controls autoplay loop></audio>
+        <p id="up" style="left:100px; top:0px"><span>M</span></p>
+        <p2 style="left:90px; top:40px"><span>E</span></p2>
+        <p3 style="left:80px; top:70px"><span>R</span></p3>
+        <p4 style="left:70px; top:100px"><span>R</span></p4>
+        <p5 style="left:60px; top:130px"><span>Y</span></p5>
+        <p5 style="left:120px; top:40px"><span>X</span></p5>
+        <p5 style="left:110px; top:70px"><span>-</span></p5>
+        <p5 style="left:100px; top:100px"><span>M</span></p5>
+        <p5 style="left:90px; top:130px"><span>A</span></p5>
+        <p5 style="left:80px; top:160px"><span>S</span></p5>
+    </div>
+</body>
+
+</html>
