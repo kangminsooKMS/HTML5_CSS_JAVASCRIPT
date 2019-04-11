@@ -26,3 +26,9 @@ html5 class
   - HTML5 박스 모델
   - HTML5 시각적효과
   - HTML5 wk05_src 업로드
+- wk06 upload
+  - HTML5 배치 position
+  - HTML5 리스트,표, 폼 꾸미기
+  - HTML5 애니메이션 효과
+  - HTML5 hm01_rpt 업로드 (보완예정)
+  - HTML5 wk06_src 업로드
