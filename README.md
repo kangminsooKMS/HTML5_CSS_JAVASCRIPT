@@ -38,3 +38,9 @@ html5 class
   - 자바스크립트 식과 연산자
   - wk09_src 업로드
   - hm01_calc 수정
+- wk10 upload
+  - 자바스크립트 조건문 및 반복문
+  - 자바스크립트 함수작성
+  - hm01_temperature.html 완성
+  - hm01_fancy_calc.html 완성
+  - wk10_src 업로드
