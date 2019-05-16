@@ -44,7 +44,7 @@ html5 class
   - hm01_temperature.html 완성
   - hm01_fancy_calc.html 완성
   - wk10_src 업로드
- - wk11 upload
+- wk11 upload
   - 자바스크립트 객체의 활용
   - 자바스크립트 배열의 
   - hm_01_box업로드
