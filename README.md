@@ -46,7 +46,11 @@ html5 class
   - wk10_src 업로드
 - wk11 upload
   - 자바스크립트 객체의 활용
-  - 자바스크립트 배열의 
+  - 자바스크립트 배열의 활용
   - hm_01_box업로드
   - hm_01_student업로드
   - wk11_src 업로드
+- wk12 upload
+ - 자바스크립트 BOM 의 이해
+ - 자바스크립트 DOM 의 이해
+ - wk12_src 업로드
