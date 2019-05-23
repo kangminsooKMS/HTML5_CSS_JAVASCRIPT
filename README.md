@@ -51,6 +51,6 @@ html5 class
   - hm_01_student업로드
   - wk11_src 업로드
 - wk12 upload
- - 자바스크립트 BOM 의 이해
- - 자바스크립트 DOM 의 이해
- - wk12_src 업로드
+  - 자바스크립트 BOM 의 이해
+  - 자바스크립트 DOM 의 이해
+  - wk12_src 업로드
