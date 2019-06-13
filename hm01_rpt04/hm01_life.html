@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!-- 이 부분은 주석문입니다. 웹 브라우저는 주석을 화면에 출력하지 않습니다. -->
+<html>
+	<head>
+		<!-- 문서제목, 자바스크립트 코드, CSS 스타일 정의, 메타데이터정의 -->
+		<meta charset="utf-8">
+		<title>HM01's daily life</title>
+		<style>
+                 div.white{
+                text-shadow: 3px 3px white;
+            }
+            @keyframes textColorAnimation {
+			0% { color : blue; }
+			30% { color : green; font-size: 4em}
+			100% { color : red; font-size: medium}
+			}
+			span1 {
+				animation-name: textColorAnimation;
+				animation-duration: 5s;
+				animation-iteration-count: infinite;
+			}
+             #list {
+            /* id 셀렉터 */
+            background: mistyrose;
+        }
+
+        #list span {
+            /* 자손 셀렉터 */
+            color: forestgreen;
+        }
+
+		</style>
+		<script></script>
+	</head>
+
+	<body>
+		<!-- 문서의 본문 텍스트, 이미지, 테이블, 자바스크립트 코드, 동영상 등 -->
+		<div class="white"><h2>HM01's daily life</h2></div>
+
+		<p>
+    <hr>
+    <hr><b>
+    <ul><li><span1>오전일과</span1></b>
+          <ul id="list">
+    <ol>
+        <ol type="1">
+            <li><span>기상</span>
+                <li>씻는다.
+                    <li>아침밥을먹는다.
+                        <li>학교를간다.
+                            <li>오전수업을듣는다.
+        </ol>
+
+        </ul>
+        <hr>
+        <ul>  <ul id="list">
+            <li><b><span1>오후일과</span1></b>
+                <ol>
+                    <ol type="1">
+                        <li>점심을먹는다.
+                            <li>오후수업을듣는다.
+                                <li>하교한다.
+                                    <li>집에와서 과제를한다.
+                                        <li>씻는다.
+                                            <li>누워서 유튜브를 보다 잠에든다.
+                    </ol>
+
+        </ul>
+        <hr>
+		</p>
+
+	</body>
+
+</html>

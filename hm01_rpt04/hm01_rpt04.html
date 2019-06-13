@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<!-- 이 부분은 주석문입니다. 웹 브라우저는 주석을 화면에 출력하지 않습니다. -->
+<html>
+  <head>
+    <!-- 문서제목, 자바스크립트 코드, CSS 스타일 정의, 메타데이터정의 -->
+    <meta charset="utf-8" />
+    <title>hm01 : My Homepage using Semantic tag</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+      }
+      .header {
+        width: 100%;
+        height: 10%;
+        background:blanchedalmond;
+      }
+      .nav {
+        width: 30%;
+        height: 80%;
+        float: left;
+        background: blanchedalmond;
+      }
+      .section {
+        width: 70%;
+        height: 80%;
+        float: left;
+        background: blanchedalmond;
+      }
+      .aside {
+        width: 15%;
+        height: 70%;
+        float: left;
+        background: orange;
+      }
+      .footer {
+        width: 100%;
+        height: 1%;
+        clear: both;
+        background: white;
+      }
+      div.red {
+        text-shadow: 3px 3px red;
+      }
+      div#big:hover {
+        transform: scaleY(2);
+      }
+    </style>
+    <script>
+        function query() {
+        var ret = confirm("네이버로 이동하시겠습니까?");
+        return ret;
+      }
+      function school() {
+        var ret = confirm("학교홈페이지로 이동하시겠습니까?");
+        return ret;
+      }
+      function subject() {
+        var ret = confirm("수강신청 페이지로 이동하시겠습니까?");
+        return ret;
+      }
+      function hideMenu() {
+        alert("오른쪽 클릭 금지!");
+        return false;
+      }
+      
+
+      document.oncontextmenu = hideMenu;
+      
+      function printScreen() {
+        var text =
+          "availHeight:".fontcolor("blue") + screen.availHeight + "";
+        text += "availWidth:".fontcolor("blue") + screen.availWidth + "";
+        text += "colorDepth:".fontcolor("blue") + screen.colorDepth + "";
+        text += "pixelDepth:".fontcolor("blue") + screen.pixelDepth + "";
+        text += "height:".fontcolor("blue") + screen.height + "";
+        text += "width:".fontcolor("blue") + screen.width + "";
+
+        document.getElementById("div").innerHTML = text;
+      }
+    </script>
+  </head>
+
+  <body onload="printScreen()">
+    <!-- 문서의 본문 텍스트, 이미지, 테이블, 자바스크립트 코드, 동영상 등 -->
+    <header class="header">
+      <div id="big">
+        <h1><a href=""> HM01's Homepage </a></h1>
+      </div>
+    </header>
+
+    <nav class="nav">
+      <ul>
+        <li>
+          <div class="red"><h2>About hm01</h2></div>
+          <ul>
+            <div id="big">
+              <li>
+                <a href="hm01_who.html" target="myframe">Who is hm01?</a>
+              </li>
+            </div>
+            <div id="big">
+              <li>
+                <a href="hm01_life.html" target="myframe">hm01's daily life</a>
+              </li>
+            </div>
+          </ul>
+        </li>
+        <li>
+          <div class="red"><h2>my favorites</h2></div>
+          <ul>
+            <div id="big">
+              <li>
+                <a href="KMS_05.html" target="myframe">Best movie 3</a>
+              </li>
+            </div>
+          </ul>
+        </li>
+        <li>
+          <div class="red"><h2>hm01 form</h2></div>
+          <ul>
+            <div id="big">
+              <li>
+                <a href="form.html" target="myframe">동호회모집 안내</a>
+              </li>
+            </div>
+            <div id="big">
+              <li>
+                <a href="hm01_iot.html" target="myframe">온도관리 (IoT)</a>
+              </li>
+            </div>
+          </ul>
+        </li>
+        <li>
+          <div class="red"><h2>hm01 invitation</h2></div>
+          <ul>
+            <div id="big">
+              <li>
+                <a href="hm01_xmas.html" target="myframe">X-Mas card</a>
+              </li>
+            </div>
+            <div id="big">
+              <li>
+                <a href="hm01_xmas_invitation.html" target="myframe"
+                  >X-Mas 파티 초대장</a
+                >
+              </li>
+            </div>
+          </ul>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <div class="red"><h2>여러가지 부가기능</h2></div>
+          <ul>
+            <div id="big">
+              <li>
+                <a href="http://www.naver.com" onclick="return query()">
+                  네이버로 이동하기.</a>
+              </li>
+            </div>
+            <div id="big">
+                <li>
+                  <a href="https://www.inje.ac.kr/kor/main/main.asp" onclick="return school()">
+                    학교홈페이지로이동</a>
+                </li>
+              </div>
+              <div id="big">
+                  <li>
+                    <a href="https://stud.inje.ac.kr/loginmenu.aspx?mmid=H0101" onclick="return subject()">
+                      수강신청으로이동</a>
+                  </li>
+                </div>
+            <div id="big">
+              <li>
+                <a href="hm01_fancy_calc.html" target="myframe">계산기</a>
+              </li>
+            </div>
+            <div id="big">
+                <li>
+                  <a href="hm01_time.html" target="myframe">현재시간</a>
+                </li>
+              </div>
+              <div id="big">
+                  <li>
+                    <a href="hm01_image5.html" target="myframe">사진첩</a>
+                  </li>
+                </div>
+              <div id="big">
+                  <li>
+                    <a href="hm01_box.html" target="myframe">깜짝퀴즈!</a>
+                  </li>
+                </div>
+          </ul>
+        </li>
+    </nav>
+
+    <section class="section" id="main">
+      <article>
+        <iframe src="hm01_who.html" name="myframe" width="800" height="620">
+        </iframe>
+      </article>
+    </section>
+
+    <footer class="footer">
+      <p>
+        Copyright 2019, COMSI by hm01
+        <div id="div"></div>
+      </p>
+      
+    </footer>
+  </body>
+</html>
